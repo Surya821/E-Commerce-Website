@@ -18,12 +18,6 @@
 
 ---
 
-## 🌐 Live Demo
-
-👉 [**View Live Demo Here**](https://xxc08jm1-3000.inc1.devtunnels.ms/)
-
----
-
 ## 📸 Screenshots
 
 | Home Page | Product Display | Cart Page |
