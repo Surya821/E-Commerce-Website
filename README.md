@@ -88,11 +88,3 @@ npm start
 
 ---
 
-## 🧪 Testing
-E-commerce-website uses the {test_framework} test framework.
-Run tests with:
-```
-npm test
-```
-
----
