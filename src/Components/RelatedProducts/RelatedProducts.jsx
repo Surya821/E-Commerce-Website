@@ -1,7 +1,6 @@
 import React from "react";
 import "./RelatedProducts.css";
 import data_product from "../Assests/data";
-import { data } from "react-router-dom";
 import Item from "../Item/Item";
 
 export const RelatedProducts = () => {
