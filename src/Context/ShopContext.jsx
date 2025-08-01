@@ -1,6 +1,5 @@
 import React, { createContext } from "react";
 import all_Product from "../Components/Assests/all_product";
-import { logDOM } from "@testing-library/dom";
 
 export const ShopContext = createContext(null);
 
@@ -38,15 +37,15 @@ const ShopContextProvider = (props) => {
     return totalAmount;
   };
 
-  const getTotalCartItems = ()=> {
+  const getTotalCartItems = () => {
     let totalItem = 0;
-    for(const item in cartItems){
-        if(cartItems[item]>0){
-            totalItem+=cartItems[item]
-        }
+    for (const item in cartItems) {
+      if (cartItems[item] > 0) {
+        totalItem += cartItems[item];
+      }
     }
     return totalItem;
-  }
+  };
 
   const contextValue = {
     all_Product,
